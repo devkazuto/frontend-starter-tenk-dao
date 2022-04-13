@@ -1,0 +1,14 @@
+.section {
+  padding-bottom: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+}
+
+.content {
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-s);
+}
+
+.content.hasMedia {
+  display: grid;
+}
